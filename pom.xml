@@ -19,6 +19,7 @@
 	<modules>
 		<module>distribute-transaction-xa-demo</module>
 		<module>distribute-transaction-tcc-demo</module>
+		<module>distribute-transaction-local-msg-demo</module>
 	</modules>
 
 	<properties>
@@ -60,6 +61,12 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-jta-atomikos</artifactId>
 				<version>2.4.1</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpclient</artifactId>
+				<version>4.5.10</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
