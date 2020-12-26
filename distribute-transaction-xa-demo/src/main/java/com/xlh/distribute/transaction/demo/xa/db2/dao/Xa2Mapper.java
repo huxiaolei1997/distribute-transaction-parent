@@ -1,7 +1,10 @@
 package com.xlh.distribute.transaction.demo.xa.db2.dao;
 
-import java.util.List;
+import com.xlh.distribute.transaction.demo.xa.db2.model.Xa2;
+import com.xlh.distribute.transaction.demo.xa.db2.model.Xa2Example;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface Xa2Mapper {
     /**
