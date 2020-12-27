@@ -20,6 +20,7 @@
 		<module>distribute-transaction-xa-demo</module>
 		<module>distribute-transaction-tcc-demo</module>
 		<module>distribute-transaction-local-msg-demo</module>
+		<module>distribute-transaction-rocket-mq-demo</module>
 	</modules>
 
 	<properties>
@@ -67,6 +68,12 @@
 				<groupId>org.apache.httpcomponents</groupId>
 				<artifactId>httpclient</artifactId>
 				<version>4.5.10</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.rocketmq</groupId>
+				<artifactId>rocketmq-client</artifactId>
+				<version>4.7.1</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
