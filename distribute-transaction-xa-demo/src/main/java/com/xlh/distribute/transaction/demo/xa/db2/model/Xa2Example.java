@@ -1,4 +1,4 @@
-package com.xlh.distribute.transaction.local.msg.demo.xa.db2.model;
+package com.xlh.distribute.transaction.demo.xa.db2.model;
 
 import java.util.ArrayList;
 import java.util.List;

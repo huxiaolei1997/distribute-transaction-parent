@@ -1,9 +1,9 @@
-package com.xlh.distribute.transaction.local.msg.demo.xa.service;
+package com.xlh.distribute.transaction.demo.xa.service;
 
-import com.xlh.distribute.transaction.local.msg.demo.xa.db1.dao.Xa1Mapper;
-import com.xlh.distribute.transaction.local.msg.demo.xa.db1.model.Xa1;
-import com.xlh.distribute.transaction.local.msg.demo.xa.db2.dao.Xa2Mapper;
-import com.xlh.distribute.transaction.local.msg.demo.xa.db2.model.Xa2;
+import com.xlh.distribute.transaction.demo.xa.db1.dao.Xa1Mapper;
+import com.xlh.distribute.transaction.demo.xa.db1.model.Xa1;
+import com.xlh.distribute.transaction.demo.xa.db2.dao.Xa2Mapper;
+import com.xlh.distribute.transaction.demo.xa.db2.model.Xa2;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

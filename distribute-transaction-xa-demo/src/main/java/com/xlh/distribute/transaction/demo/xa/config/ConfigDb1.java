@@ -1,4 +1,4 @@
-package com.xlh.distribute.transaction.local.msg.demo.xa.config;
+package com.xlh.distribute.transaction.demo.xa.config;
 
 import com.atomikos.icatch.jta.UserTransactionImp;
 import com.atomikos.icatch.jta.UserTransactionManager;

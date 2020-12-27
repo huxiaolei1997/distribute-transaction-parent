@@ -1,4 +1,4 @@
-package com.xlh.distribute.transaction.local.msg.demo.xa.config;
+package com.xlh.distribute.transaction.demo.xa.config;
 
 import com.mysql.cj.jdbc.MysqlXADataSource;
 import org.mybatis.spring.SqlSessionFactoryBean;

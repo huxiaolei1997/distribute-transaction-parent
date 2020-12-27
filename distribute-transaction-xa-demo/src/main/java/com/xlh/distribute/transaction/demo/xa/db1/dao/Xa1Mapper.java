@@ -1,7 +1,7 @@
-package com.xlh.distribute.transaction.local.msg.demo.xa.db1.dao;
+package com.xlh.distribute.transaction.demo.xa.db1.dao;
 
-import com.xlh.distribute.transaction.local.msg.demo.xa.db1.model.Xa1;
-import com.xlh.distribute.transaction.local.msg.demo.xa.db1.model.Xa1Example;
+import com.xlh.distribute.transaction.demo.xa.db1.model.Xa1;
+import com.xlh.distribute.transaction.demo.xa.db1.model.Xa1Example;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

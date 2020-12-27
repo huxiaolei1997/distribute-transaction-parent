@@ -1,4 +1,4 @@
-package com.xlh.distribute.transaction.local.msg.demo.xa;
+package com.xlh.distribute.transaction.demo.xa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
