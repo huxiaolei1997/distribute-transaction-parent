@@ -1,5 +1,6 @@
 package com.xlh.distribute.transaction.tcc.demo.config;
 
+import com.mysql.cj.jdbc.MysqlDataSource;
 import com.mysql.cj.jdbc.MysqlXADataSource;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
@@ -27,14 +28,12 @@ import java.io.IOException;
 public class ConfigDb2 {
     @Bean("db2")
     public DataSource db1() {
-        MysqlXADataSource xaDataSource = new MysqlXADataSource();
-        xaDataSource.setUser("root");
-        xaDataSource.setPassword("123456");
-        xaDataSource.setUrl("jdbc:mysql://192.168.3.137:3306/xa_2?useUnicode=true&characterEncoding=utf8");
+        MysqlDataSource mysqlDataSource = new MysqlDataSource();
+        mysqlDataSource.setUrl("jdbc:mysql://192.168.3.137:3306/xa_2?useUnicode=true&characterEncoding=utf8");
+        mysqlDataSource.setUser("root");
+        mysqlDataSource.setPassword("123456");
 
-        AtomikosDataSourceBean atomikosDataSourceBean = new AtomikosDataSourceBean();
-        atomikosDataSourceBean.setXaDataSource(xaDataSource);
-        return atomikosDataSourceBean;
+        return mysqlDataSource;
     }
 
     @Bean("sqlSessionFactoryBean2")
