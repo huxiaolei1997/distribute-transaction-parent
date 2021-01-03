@@ -29,8 +29,10 @@ dubbo:
   provider:
     timeout: 60000
   registry:
-    id: zk
-    address: zookeeper://127.0.0.1:2181
+    id: nacos
+    address: nacos://127.0.0.1:8848
+    username: nacos
+    password: nacos
 
 #====================================Seata Config===============================================
 

@@ -14,6 +14,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo-registry-nacos</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.xlh.distribute.transaction</groupId>
             <artifactId>distribute-seata-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
